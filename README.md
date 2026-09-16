@@ -1,7 +1,12 @@
 # dev7a Homebrew tap
 
 Install the signed, notarized [lnpctl](https://github.com/dev7a/lnpctl) release with Homebrew.
-Requires Apple Silicon and macOS 15 or later.
+Requires Apple Silicon and macOS 26 or later.
+
+The cask uses a stricter minimum than the executable's macOS 15 deployment
+target. The current release's offline filesystem integration tests ran on
+macOS 26.6.1; this does not mean every macOS 26 or newer release is validated.
+See the project's [validation record](https://github.com/dev7a/lnpctl/blob/main/docs/validation.md).
 
 ```sh
 brew install --cask dev7a/tap/lnpctl
