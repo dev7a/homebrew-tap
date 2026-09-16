@@ -2,8 +2,7 @@ cask "lnpctl" do
   version "0.1.4"
   sha256 "dd199bc41fa231e8b90dc04cf0e2419bdfebd5d4c8f6b2064596bba5573dddd3"
 
-  url "https://github.com/dev7a/lnpctl/releases/download/v#{version}/lnpctl-#{version}-macos-arm64.dmg",
-      verified: "github.com/dev7a/lnpctl/"
+  url "https://github.com/dev7a/lnpctl/releases/download/v#{version}/lnpctl-#{version}-macos-arm64.dmg"
   name "lnpctl"
   desc "Experimental Local Network permission cleanup tool"
   homepage "https://dev7a.github.io/lnpctl/"
@@ -14,7 +13,7 @@ cask "lnpctl" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   binary "lnpctl"
 
