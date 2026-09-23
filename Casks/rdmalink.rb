@@ -1,6 +1,6 @@
 cask "rdmalink" do
-  version "0.3.5"
-  sha256 "b948fcc0e111c9360c4d3d920dfba96456bff43a13899e86d35c9fc507154748"
+  version "0.3.6"
+  sha256 "9205fa8d628480554ea159b61dc08fbf297f5615c0dfbb5f2c262a25474da700"
 
   url "https://github.com/dev7a/rdmalink/releases/download/v#{version}/RDMALink-#{version}.dmg"
   name "RDMALink"
